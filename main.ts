@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const text =
-  "Day 1 in public: post $100, plan, wallet. Days 2-30 one loop: escrowed make.fun bounties only, duel-test every draft vs top 10, enter only if it beats #1, quit a line after two losses. 120 entries, verified rates, settled only: $1,557 day 30, $871 floor, every payout published.";
+  "Day 1: publish plan and wallet, list a $25 bug-fix gig on Fiverr. Days 2-30: 2 escrow-paid fixes/day build the bankroll; profits enter only escrowed bounties, duel-tested vs top 10, enter only if it beats #1. $1,740 day 30, $725 floor, every payout published.";
 
 // Output dir comes from MAKEFUN_OUTPUT_DIR (default "/output"); the program
 // writes entry.txt there and never creates or modifies the directory itself.
