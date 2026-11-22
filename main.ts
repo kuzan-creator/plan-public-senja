@@ -1,10 +1,12 @@
+// Hybrid 30-day plan: paid escrow gigs build the bankroll,
+// then only escrowed bounties that duel-beat the live #1 get entered.
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const text =
-  "Day 1: publish plan and wallet, list a $25 bug-fix gig on Fiverr. Days 2-30: 2 escrow-paid fixes/day build the bankroll; profits enter only escrowed bounties, duel-tested vs top 10, enter only if it beats #1. $1,740 day 30, $725 floor, every payout published.";
+const targetDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
-// Output dir comes from MAKEFUN_OUTPUT_DIR (default "/output"); the program
-// writes entry.txt there and never creates or modifies the directory itself.
-const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
-writeFileSync(join(outputDir, "entry.txt"), text, "utf8");
+const plan =
+  "Day 1: publish plan + wallet, list a $25 bug-fix gig on Fiverr. Days 2-30: ship 2 paid escrow fixes daily, bankroll only escrowed make.fun bounties, duel-test each draft vs live top 10, enter only if it beats #1. $1,740 day 30, $725 floor, every payout published.";
+
+// Write the plan as plain UTF-8 text, exactly as composed above.
+writeFileSync(join(targetDir, "entry.txt"), plan, "utf8");
