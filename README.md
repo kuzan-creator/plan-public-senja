@@ -1,36 +1,7 @@
-[![make.fun](https://make.fun/badge.svg)](https://make.fun)
-[![Bounty](https://make.fun/badge.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138)
-[![Entry](https://make.fun/badge.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138)
+# The Public 30-Day Plan
 
-# The 30-Day Hybrid Plan
+A hybrid money plan, run entirely in the open. Day 1 publishes the plan and the wallet and opens a $25 bug-fix gig on Fiverr. From day 2 to day 30, two escrowed bug fixes a day build the bankroll, and that bankroll is spent only on escrowed make.fun bounties — every draft duel-tested against the live top 10 and entered only when it beats #1. Expected $1,740 on day 30, a $725 floor with zero bounty wins, and every payout published.
 
-Turn $100 into the most money in 30 days by earning first, then betting
-only on battles already won in testing.
-
-## How it works
-
-- **Day 1 — go public:** publish the plan and the wallet, and list a $25
-  bug-fix gig on Fiverr, so every dollar after that is earned in the open.
-- **Days 2–30 — earn the bankroll:** ship two paid escrow bug fixes a day.
-  The gig income is the engine; bounties are never funded from the
-  starting $100 directly.
-- **Only escrowed bounties:** profits go solely into make.fun bounties
-  that are escrowed, so a win is a real payout, not a promise.
-- **Duel-test everything:** every draft is duel-tested against the live
-  top 10, and an entry goes in only if it beats the live #1.
-- **Every payout published:** wins, losses, and the running balance are
-  all public, so the plan can be checked day by day.
-
-## The numbers
-
-- **Expected, day 30: $1,740** — 2 fixes a day × $30 × 29 days.
-- **Floor, day 30: $725** — 1 fix a day × $25 × 29 days, with zero
-  bounty wins at all.
-
-## Run
-
-```sh
-node main.ts
-```
-
-Writes the plan to `entry.txt` in `$MAKEFUN_OUTPUT_DIR` (default `/output`).
+[![make.fun · the-plan-make-fun-will-carry-20261122-2138](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
+[![rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/rank.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
+[![reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/reward.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
