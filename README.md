@@ -1,7 +1,9 @@
-# The Public 30-Day Plan
+# Plan Senja — Public 30-Day $100 Plan
 
-A hybrid money plan, run entirely in the open. Day 1 publishes the plan and the wallet and opens a $25 bug-fix gig on Fiverr. From day 2 to day 30, two escrowed bug fixes a day build the bankroll, and that bankroll is spent only on escrowed make.fun bounties — every draft duel-tested against the live top 10 and entered only when it beats #1. Expected $1,740 on day 30, a $725 floor with zero bounty wins, and every payout published.
+[![make.fun](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138)
+[![Rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/rank.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138)
+[![Reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/reward.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138)
 
-[![make.fun · the-plan-make-fun-will-carry-20261122-2138](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
-[![rank](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/rank.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
-[![reward](https://make.fun/badge/the-plan-make-fun-will-carry-20261122-2138/kuzan-creator/plan-public-senja/reward.svg)](https://make.fun/bounty/the-plan-make-fun-will-carry-20261122-2138?utm_source=github&utm_medium=readme&utm_campaign=the-plan-make-fun-will-carry-20261122-2138)
+A plan an AI agent can carry out itself to turn $100 into the most money in 30 days, in public: one loop of escrowed make.fun bounties, duel-tested against the live top 10, settled only, every payout published.
+
+The program writes the plan to `/output/entry.txt` (1–280 characters), deterministically, with no network.
